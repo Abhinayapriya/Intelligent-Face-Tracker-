@@ -155,6 +155,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 -> Unique ID is assigned as person_<frame_number>_<face_number> for simplicity.
 
+ ![Alt Text]("flowchart.jpg")
 
 
 📈 Sample Output

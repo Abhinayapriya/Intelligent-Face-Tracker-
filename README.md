@@ -1,6 +1,7 @@
 A real-time AI-powered system for face detection, recognition, tracking, logging, and unique visitor counting using YOLOv8, InsightFace, and Python.
 
 💡 Features : 
+
 ✅ Real-time face detection using YOLOv8
 
 ✅ Face recognition with InsightFace / ArcFace
@@ -16,6 +17,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 ✅ Unique visitor counter to avoid duplicate counts
 
 🛠️ Technologies Used
+
 -> Python 3.10
 -> OpenCV
 -> YOLOv8 (Ultralytics)
@@ -27,6 +29,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 
 📦 Setup Instructions
+
 1. Clone the Repository
     ```bash
      git clone https://github.com/Abhinayapriya/Intelligent-Face-Tracker-.git
@@ -74,6 +77,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 ```
 
 📁 Project Folder Structure (Explained Point-by-Point)
+
 1. config.json
    
    Contains configurable parameters (e.g., frame skip value, thresholds).
@@ -137,6 +141,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 -> Unique ID is assigned as person_<frame_number>_<face_number> for simplicity.
 
 📈 Sample Output
+
 ✅ Log file example:
 ```bash 
      person_1_0, entry, 2025-07-09 19:20:22  

@@ -91,42 +91,42 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 
 📁 Project Folder Structure (Explained Point-by-Point)
-1. config.json
+ 1. config.json
    
    Contains configurable parameters (e.g., frame skip value, thresholds).
    
-2.database.py
+ 2.database.py
 
    Handles SQLite database initialization and insertion of visitor log data.
    
-3.detector.py
+ 3.detector.py
 
    Uses YOLOv8 to perform real-time face detection from video frames.
 
-4.logger.py
+ 4.logger.py
 
    Logs events (entry/exit), saves cropped face images, and updates the CSV/database.
 
-5.main.py
+ 5.main.py
 
    -> Main execution file that:
         Reads video input, 
         Detects and recognizes faces,
         Logs events and displays output window.
 
-6.recognizer.py
+ 6.recognizer.py
 
    Generates face embeddings using InsightFace and matches with known identities.
 
-7.view_log.py
+ 7.view_log.py
 
    Displays and prints visitor logs from the database or log files in a readable format.
 
-8.yolov8n-face.pt
+ 8.yolov8n-face.pt
 
    Pretrained YOLOv8 model weights for face detection.
-
-9.visitor_logs.db
+ 
+ 9.visitor_logs.db
 
    SQLite database file that stores visitor metadata: ID, timestamp, event type, etc.
 
@@ -134,11 +134,11 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
    Stores cropped face images organized by date of entry.
 
-11.logs/log.csv
+ 11.logs/log.csv
 
    CSV file that logs each face's entry/exit with timestamp and ID.
 
-12.README.md 
+ 12.README.md 
 
    Documentation file including setup instructions, config example, assumptions, architecture diagram, and more.
 

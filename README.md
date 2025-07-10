@@ -157,7 +157,7 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 Architecture Diagram:
 
- ![Alt Text](https://github.com/username/repo/blob/main/flowchart.jpg?raw=true)
+![Architecture Diagram](https://github.com/Abhinayapriya/Intelligent-Face-Tracker-/blob/main/flowchart.jpg?raw=true)
 
 
 📈 Sample Output

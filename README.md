@@ -1,5 +1,7 @@
 A real-time AI-powered system for face detection, recognition, tracking, logging, and unique visitor counting using YOLOv8, InsightFace, and Python.
 
+
+
 💡 Features : 
 
 ✅ Real-time face detection using YOLOv8
@@ -16,16 +18,26 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 ✅ Unique visitor counter to avoid duplicate counts
 
+
+
 🛠️ Technologies Used
 
 -> Python 3.10
+
 -> OpenCV
+
 -> YOLOv8 (Ultralytics)
+
 -> InsightFace
+
 -> SQLite (via sqlite3)
+
 -> Pandas
+
 -> NumPy
+
 -> Tkinter (optional for viewing logs)
+
 
 
 📦 Setup Instructions
@@ -76,8 +88,9 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 }
 ```
 
-📁 Project Folder Structure (Explained Point-by-Point)
 
+
+📁 Project Folder Structure (Explained Point-by-Point)
 1. config.json
    
    Contains configurable parameters (e.g., frame skip value, thresholds).
@@ -130,6 +143,8 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
    Documentation file including setup instructions, config example, assumptions, architecture diagram, and more.
 
 
+
+
 🧪 Assumptions Made
 
 -> Faces present for only a few frames are not registered.
@@ -139,6 +154,8 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 -> If the same face disappears and reappears after a long gap, it might be treated as a new person.
 
 -> Unique ID is assigned as person_<frame_number>_<face_number> for simplicity.
+
+
 
 📈 Sample Output
 
@@ -155,4 +172,6 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 ```bash
     Total unique visitors: 24
 ```
+
+
 “This project is a part of a hackathon run by https://katomaran.com

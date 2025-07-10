@@ -2,11 +2,17 @@ A real-time AI-powered system for face detection, recognition, tracking, logging
 
 💡 Features : 
 ✅ Real-time face detection using YOLOv8
+
 ✅ Face recognition with InsightFace / ArcFace
+
 ✅ Auto-registration of new visitors with unique ID
+
 ✅ Accurate entry/exit logging with timestamps
+
 ✅ Saves cropped face images locally by date
+
 ✅ Stores logs in CSV and SQLite database
+
 ✅ Unique visitor counter to avoid duplicate counts
 
 🛠️ Technologies Used

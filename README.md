@@ -160,6 +160,12 @@ Architecture Diagram:
 ![Architecture Diagram](https://github.com/Abhinayapriya/Intelligent-Face-Tracker-/blob/main/flowchart.jpg?raw=true)
 
 
+📹 Demo Video
+
+
+[![Watch the Video](https://cdn.loom.com/sessions/thumbnails/ae421c9485804b3f94162c4ea6c9026d-with-play.gif)](https://www.loom.com/share/ae421c9485804b3f94162c4ea6c9026d?sid=db239f67-b89b-44c7-8c5c-c636bdce5e14)
+
+
 📈 Sample Output
 
 ✅ Log file example:
